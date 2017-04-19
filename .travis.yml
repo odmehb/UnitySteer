@@ -1,8 +1,17 @@
 language: objective-c
 
 install:
-  - sh ./.deploy/travis/py_set_up.sh
+- sh ./.deploy/travis/py_set_up.sh
 
 script:
-  - python ./.deploy/travis/main_parser.py
+- python ./.deploy/travis/main_parser.py
 
+addons:
+  sonarqube:
+    organization: "makadimilan-github" # the key of the org you chose at step #3
+    token:
+      secure: IJws4KCUwC/YLwWMpAOJBVXCXYaxdppg5gSH0JY/K7+2lMakPgmEpX4zF3m1eXApvE8bjOUAx/HuqW+huyfQI1XjGhf+TGPwpVFuIlY1Q5Q+WOG+gKn1vRGrYMWu0RJcn8fNltLyizczy3AclyN1Ne011vHS2X/iL/IpDi3FK41b8ygjvm7/r4otMhwX1tyeawtjcDRZ8QUDQBPLOVsW9DyV1f4Wrfv4HgTSDkEMDsTov5tpVN3tV7/4ecuv3qTCtglu+cIgRs+dsqWecrFVheBsizTDWBcSUVUqc4pflAM6+kEY8CSpj2xRwGz18sTspNg0M86t/Wr+UyXZoXZqoBKCpDwfb0avE7YFeiM7j04QpD7xA56XcPNPA6xqIHaCkIH4+988XgqTOy/o+76hEBWyfFXPueZ3kl/sF2P5XiaPX6MFFE1E5AQ3ruFRTDn9sDhz3WrHdZYzT4nhx43zhMWlcEAPb87umKylk3aAjjcQ11KUYdQdJC0KP4DgrDc5ewlmqLQ6TKQz8OxQVcR8EqBLUk1kg3hRVgz9kWmc85EVTLuYBRFxeOAHmJDNFYkOidxrtENs//m1IZUDe/MRY7AYktcmXa65+9PPJ989ZHo59wbULRJ9Z7Zh3q63817Fm1cChjjVdJQPm1copGfSu82R+NE/gLIZup7DtwiFmd8=
+
+script:
+  # other script steps might be done before running the actual SonarQube analysis
+  - sonar-scanner
