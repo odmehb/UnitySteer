@@ -8,9 +8,9 @@ script:
 
 addons:
   sonarqube:
-    organization: odmehb-github
+    organization: "odmehb-github"
     token:
-      secure: qqfKKI0ZzQnvJBmP4FQSdNKawQFk9u+pSpRalw8lJL8BHP5SkKqTc9j+3njSjw4IPzrl+B7aZhogx83OyMwcrhG0l5Ozz4TW5ff0crlp3smhWM/h+nlPT/hldeAzXnhin122yGVo4TE3FKWXGYqOEr1aVIJ04Nr+SFO/vhPlxdWqWC/ULAxHhvsWnOWODy4+mkoLLgiTaBQ2WvtwkHsESy/vTxm3abv6b6LEDWtLwYkbsVomGNTUf2ZEmr/+zuRz4vuvVJKNk1B0o/Qe+51wGIofdZakrzRECW6fYJk6m8XE6dIi/L36bBrISTry6lJb1hEuAtd9OCh66Ra9lr1u/Z9mXLLW2W2fh0VzcrPsLUAZLJ8QH/aGHprBcEnySmym1U9jty1RRIYMKUpjbkmu+Jq5VI4PHlVEHZXYN/8o+7JnfVihtjafIG/MO02S2GFJ2Ywa727VbwwuxlM/O0+UrXdNPNR5z5qtphVGCR3SCnJU79S9K1k2Tv/O7qGi+KiCt+GyKE+0avy3Z2lheJQX2kDCkevhOy01O/Q0cUpr3rl5pR/5LlMh8ZCZWZTOVn9uSiDEB6cD5qydGnpo8zO5nGlJHeRaDJ6t7foRECCieRAJP3UqgUfMHy4Wd9qy8VCjoDMMNhehN2XAJlPPt9QDIpQJVL2xFSrDTOsdSDD2pNY=
+      secure: "qqfKKI0ZzQnvJBmP4FQSdNKawQFk9u+pSpRalw8lJL8BHP5SkKqTc9j+3njSjw4IPzrl+B7aZhogx83OyMwcrhG0l5Ozz4TW5ff0crlp3smhWM/h+nlPT/hldeAzXnhin122yGVo4TE3FKWXGYqOEr1aVIJ04Nr+SFO/vhPlxdWqWC/ULAxHhvsWnOWODy4+mkoLLgiTaBQ2WvtwkHsESy/vTxm3abv6b6LEDWtLwYkbsVomGNTUf2ZEmr/+zuRz4vuvVJKNk1B0o/Qe+51wGIofdZakrzRECW6fYJk6m8XE6dIi/L36bBrISTry6lJb1hEuAtd9OCh66Ra9lr1u/Z9mXLLW2W2fh0VzcrPsLUAZLJ8QH/aGHprBcEnySmym1U9jty1RRIYMKUpjbkmu+Jq5VI4PHlVEHZXYN/8o+7JnfVihtjafIG/MO02S2GFJ2Ywa727VbwwuxlM/O0+UrXdNPNR5z5qtphVGCR3SCnJU79S9K1k2Tv/O7qGi+KiCt+GyKE+0avy3Z2lheJQX2kDCkevhOy01O/Q0cUpr3rl5pR/5LlMh8ZCZWZTOVn9uSiDEB6cD5qydGnpo8zO5nGlJHeRaDJ6t7foRECCieRAJP3UqgUfMHy4Wd9qy8VCjoDMMNhehN2XAJlPPt9QDIpQJVL2xFSrDTOsdSDD2pNY="
       branches:
       - master
       - development
