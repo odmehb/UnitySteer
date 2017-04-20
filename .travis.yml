@@ -12,7 +12,7 @@ env:
 
 addons:
   sonarqube:
-    organization: odmehb-github
+    organization: "odmehb-github"
     token:
       secure: Hv/afJOXgKrOgOXk8FtVwUF8NPSu3PDKFqckNcmQpUk+ymlO+kkWUWrEhv0e+/ojui35GCtutQpRv2Zpa3v4IOjmuFoY3W6QGTAjQpGzs5da3MLDVgJP0UyZOQNnyigHpg8jUSpI88lNMRqrLrl+N2qlZAeMWvWGv4t1UZ1tnBWOMGReV1BWLMnr3Fc0Yu7NLPcfGLGZczNEBglt0mApNxnsDB/dphn2gT+oQmKiBGzJJQEFP3/Zhm6/WaU1eK0yRulA6Dc8BQwBiO7VVGcUmZWPFDB+oAlvpumcjhsatrKppjLKfs6zw3GTGSeX8bbRKdlTOHs9LIhOwNuHlA3LvfARNoHHy5sBeCLl3DJjq0rOkzd3D7IE+SzYK/oSTJ5pYc8w9l9Hx3rFdd/eUSU/UszuzdovK1jfy2t2lwbt7Z2wireTHpv1BvuTXIkN9fWYHlYhNNYr0r+7q1oZ8ncf0lnvzD8okiQyn4dajbpCmxiXfghBApAamr4SVxbU/pyA9e2aZSZccePGSMWFYiD820PYoMj/ShbEwuGw+6aQ7NB1sKI6qGs44T8j2ZXcl0Xv/MUuGjx+d3h6UwjyBwvtEqmnXzXC6KK66axRRLVhSlK+7Wr4bcJByNGvKkLODNTv+rlJD+2pEs77lPlvvoYXHY4d003x+klJkI6Rmybtmac=
       branches:
