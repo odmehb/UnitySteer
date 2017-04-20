@@ -5,7 +5,7 @@ install:
 
 script:
 - python ./.deploy/travis/main_parser.py
-- sonar-scanner
+- sonar-scanner -X
 
 addons:
   sonarqube:
